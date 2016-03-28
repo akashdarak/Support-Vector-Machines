@@ -18,8 +18,6 @@ print classifier.score(X_test, y_test)
 
 #print cross_validation.cross_val_score(classifier, X, y, cv=5, scoring='roc_auc')
 #m = cross_validation.cross_val_score(classifier, X, y, cv=5, scoring='roc_auc')
-#print "m="
-#print m
 
 #OR
 #cv = cross_validation.StratifiedKFold(y, 5)
