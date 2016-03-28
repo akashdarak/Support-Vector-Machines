@@ -21,8 +21,6 @@ classifier = svm.SVC(kernel='rbf').fit(norm_data, y)
 
 #print cross_validation.cross_val_score(classifier, X, y, cv=5, scoring='roc_auc')
 #m = cross_validation.cross_val_score(classifier, X, y, cv=5, scoring='roc_auc')
-#print "m="
-#print m
 
 #OR
 #cv = cross_validation.StratifiedKFold(y, 5)
